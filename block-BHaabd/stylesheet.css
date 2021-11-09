@@ -43,48 +43,70 @@ table {
 }
 
 /* custom styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 body {
     font-size: 16px;
     line-height: 1.5;
+    background-color: burlywood;
+    font-family: 'Montserrat', sans-serif;
+    padding: 32px;
 }
 /* header */
-/* .container {
-    max-width: 1200px;
+.container {
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 0 25px;
-} */
+    padding: 0 30px;
+    background-color: white;
+}
 .header {
     text-align: center;
     text-transform: capitalize;
-    background-color: burlywood;
+    font-size: 36px;
+    padding: 20px 0;
 }
-.div {
-    width: 30%;
-   
-   
-    padding: 10px 10px;
+h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
 }
-img {
-    width: 500px;
-    padding: 10px 10px;
-}
-
-.div1,{
-    padding: 10px 10px;
-}
-.div2{
-
-    padding: 10px 10px;
-}
-.div, .div1, .div2 {
+.left {
     float: left;
-    width: 30%;
-    
 }
-/* .clearfix::before, .clearfix::after{
+aside {
+    width: 25%;
+}
+.article img {
+    width: 100%;
+}
+
+.article {
+    width: 45%;
+}
+
+.clearfix::before,
+ .clearfix::after{
     content: "";
     display: table;
 }
-    .clearfix::after{
-        clear: both;
-} */
+.clearfix::after{
+     clear: both;
+}
+.size {
+    padding: 0 20px;
+}
+.side {
+    /* margin-left: 50px; */
+    font-weight: 600;
+    page-break-after: auto;
+}
+.article p {
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+aside p {
+    font-size: 18px;
+}
+
