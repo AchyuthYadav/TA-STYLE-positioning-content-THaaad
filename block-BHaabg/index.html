@@ -1,0 +1,93 @@
+<!-- ### Exercise
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the logo to the left and all the navigation to the right.
+
+3. The header must be fixed at the top of the page.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <script src="https://kit.fontawesome.com/fbf095934a.js" crossorigin="anonymous"></script>
+    <title>Assignment2</title>
+</head>
+<body id="top">
+    <header class="header">
+        <div class="container clearfix">
+            <a class="brand"href="#">
+                <img src="./media/kawasaki1.png" alt="kawasaki1">
+            </a>
+            <nav class="nav">
+                <a href="./index.html">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">CONTACT</a>
+            </nav>        
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container clearfix">
+                <article class="col1">
+                    <h2>About India Kawasaki Motors</h2>
+                    <p>IKM established its new plant in Chakan, Pune, Maharashtra in July.
+                        Operations from the new plant commenced from September.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                       Numquam tempore quasi nobis quaerat nisi corporis mollitia, consequatur
+                       vero cupiditate eum laudantium illum voluptatem, maiores velit aspernatur 
+                        quibusdam alias a esse!</p>
+                     <p>The successful alliance with Indian partner 
+                        for sales and after-sales service of its motorcycles 
+                        ceased with effect from April 01, 2017</p>   
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Voluptate ea non ab velit, nostrum quam qui, enim fugit provident recusandae 
+                        natus necessitatibus mollitia? Et consectetur, 
+                        blanditiis maxime quas debitis excepturi.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+                       explicabo porro tempore mollitia incidunt rerum quidem eligendi necessitatibus. </p>
+              <a class="gallery1"href="#">
+                </article>
+                <a class="col2"href="">
+                    <img src="./media/image1.jpg" alt="image1">
+                </a>
+            </div>
+            <div class="container clearfix">
+                <a class="gallery1"href="#">
+                  <img src="./media/i1.jpg" alt="i1">
+                  <img src="./media/i2.jpg" alt="i2">
+                  <img src="./media/i3.jpg" alt="i3">
+              </a>
+            </div>
+            <div class="container clearfix">
+                <a class="gallery1"href="#">
+                    <img src="./media/i4.jpg" alt="i4">
+                    <img src="./media/i5.jpg" alt="i5">
+                    <img src="./media/i7.jpg" alt="i7">
+                </a>
+              </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <nav>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </nav>
+        </div>
+    </footer>
+        <a class="top"href="#top">back to top</a>
+    </a> 
+</body>
+</html>
